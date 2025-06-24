@@ -7,6 +7,10 @@ spring:
       config:
         namespace: dev
         file-extension: yml
+        extension-configs:
+          - data-id: common-config.yml
+            group: DEFAULT_GROUP
+            refresh: true
       discovery:
         namespace: dev
   application:
