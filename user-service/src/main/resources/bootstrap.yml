@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      username: nacos
+      password: nacos
+      config:
+        namespace: dev
+      discovery:
+        namespace: dev
+  application:
+    name: user-service  # 当前服务名
+server:
+  port: 10000
