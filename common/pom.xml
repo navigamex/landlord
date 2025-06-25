@@ -7,12 +7,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>common</name>
     <description>common</description>
-    <parent>
-        <groupId>com.navigamex</groupId>
-        <artifactId>landlord</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
 
-    </parent>
     <build>
         <plugins>
             <plugin>
@@ -26,23 +21,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring-boot.version}</version>
-                <configuration>
-                    <mainClass>com.navigamex.common.CommonApplication</mainClass>
-                    <skip>true</skip>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>repackage</id>
-                        <goals>
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+
         </plugins>
     </build>
 
