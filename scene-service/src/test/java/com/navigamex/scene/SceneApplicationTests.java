@@ -1,10 +1,10 @@
-package com.navigamex.scence;
+package com.navigamex.scene;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ScenceApplicationTests {
+class SceneApplicationTests {
 
     @Test
     void contextLoads() {

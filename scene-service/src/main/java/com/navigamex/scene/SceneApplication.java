@@ -1,13 +1,13 @@
-package com.navigamex.scence;
+package com.navigamex.scene;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ScenceApplication {
+public class SceneApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ScenceApplication.class, args);
+        SpringApplication.run(SceneApplication.class, args);
     }
 
 }
